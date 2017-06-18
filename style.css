@@ -1,0 +1,15 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-image: url(http://i.imgur.com/yT2x5fe.jpg);
+	background-size: cover;
+	font-family: 'Pacifico', cursive;
+}
+
+.content{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
