@@ -1,0 +1,76 @@
+/* GENERAL */
+body {
+    background-color:#26baef;
+    /*background: url("../img/cleveland.jpg") no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    color: #FFF;
+}
+
+p a {
+    /*text-decoration: underline;*/
+    text-decoration: underline;
+    color: white;
+}
+
+p a:hover {
+    color: #ff26cc;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+} 
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* PAGE: HOME */
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 30px auto;
+    /*border-radius: 100%;*/
+    border: 10px solid #ff9e3d;
+}
+
+/* FOOTER */
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: white;
+}
+
+footer a {
+    /*display: block;*/
+    background-color: transparent;
+    color: #FFF;
+}
+
+footer a:hover {
+    background-color: transparent;
+    color: #ff26cc;
+}
+
+.social-icon {
+  margin: 0 5px;
+}
