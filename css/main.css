@@ -1,3 +1,10 @@
+/*
+COLORS:
+Light blue: #26baef
+Hot pink: #ff26cc
+Orange: #ff9e3d;
+*/
+
 /* GENERAL */
 body {
     background-color:#26baef;
@@ -12,16 +19,15 @@ body {
     max-width: 940px;
     margin: 0 auto;
     padding: 0 5%;
-    color: #FFF;
+    color: white;
 }
 
-p a {
-    /*text-decoration: underline;*/
+a {
     text-decoration: underline;
     color: white;
 }
 
-p a:hover {
+a:hover {
     color: #ff26cc;
 }
 
@@ -42,7 +48,6 @@ p {
     text-align: center;
 }
 
-/* PAGE: HOME */
 .profile-photo {
     display: block;
     max-width: 150px;
@@ -62,8 +67,7 @@ footer {
 
 footer a {
     /*display: block;*/
-    background-color: transparent;
-    color: #FFF;
+    color: white;
 }
 
 footer a:hover {
