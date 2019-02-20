@@ -1,68 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta information -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" 
-  content="width=device-width, initial-scale=1">
-  <meta name="description" content="Berthy's Personal Website">
-  <meta name="author" content="Berthy Feng">
 
-  <!-- Title -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
   <title>Berthy Feng</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
-  ga('create', 'UA-105311921-1', 'auto');
-  ga('send', 'pageview');
+  <!-- Custom styles for this template -->
+  <link href="css/resume.css" rel="stylesheet">
 
-  </script>
 </head>
 
-<body>
-  <header>
-  </header>
-  <div id="wrapper">
-    <h1>Berthy Feng</h1>
+<body id="page-top">
 
-    <img src="img/hp.jpg" alt="Berthy Feng" class="profile-photo">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Berthy Feng</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#research">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
 
-    <h3>Hi! I'm a senior at Princeton University, majoring in Computer Science with a certificate in Statistics & Machine Learning.</h3>
+  <div class="container-fluid p-0">
 
-    <p>Most recently, I was a Summer 2018 SWE Intern at Google. I worked on the Photos Machine Intelligence team in the LA office, where I developed a data pipeline for models related to people clustering.</p>
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Berthy
+          <span class="text-primary">Feng</span>
+        </h1>
+        <div class="subheading mb-5">Princeton, NJ · 
+          <a href="mailto:name@email.com">bfeng@princeton.edu</a>
+        </div>
+        <p class="lead mb-5">
+          I'm a senior undergrad in the CS Department at Princeton University. I do research in computer vision, natural language processing, and signal processing. [<a href="resume.html" target="_blank">R&#233sum&#233</a>]
+        </p>
+        <div class="social-icons">
+          <a href="https://linkedin.com/in/berthy-feng-844956108/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/berthyf96">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://soundcloud.com/berthy-feng-1">
+            <i class="fab fa-soundcloud"></i>
+          </a>
+        </div>
+      </div>
+    </section>
 
-    <p>I'm primarily interested in deep learning and its applications in audio and image processing. In Spring 2018, I completed an <a href="audio_sr.html" target=_"blank">independent research project</a> on Hierarchical Recurrent Neural Networks for Audio Super-Resolution. I built a model for improving the quality of digital audio without any inputs other than the low-quality input waveform. I also proposed ways of improving the model, including through perceptual losses and generative adversarial networks (GANs). My project won the Princeton CS Department's Best Poster Award.</p>
+    <hr class="m-0">
 
-    <p>Other related experiences:</p>
-    <ul>
-      <li><a href="https://pixl.cs.princeton.edu/pubs/Feng_2019_LBE/" target=_"blank">Learning Bandwidth Expansion Using Perceptually-Motivated Loss</a>, a research project in conjunction with Prof. Adam Finkelstein (Princeton), Zeyu Jin (Adobe Research), and Jiaqi Su (Princeton). Paper published in ICASSP 2019.</li>
-      <li><a href="https://www.cs.princeton.edu/courses/archive/spring18/cos598B/public/projects/System/COS598B_spr2018_TwoEncodings.pdf" target=_"blank">Analyzing the effect of different text encodings on visual question answering (VQA) models.</a></li>
-      <li>Marketing Director for <a href="https://hackprinceton.com" target=_"blank">HackPrinceton</a>, a semi-annual hackathon.</li>
-      <li>Developer of <a href="https://engineering.princeton.edu/news/2018/04/17/student-project-seeks-help-those-memory-loss" target=_"blank">Pixplor</a>, an iOS app for nursing-home residents.</li>
-    </ul>
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
 
-    <p>Only slightly related experience: I <a href="https://soundcloud.com/berthy-feng-1" target="_blank">produce music</a>, mostly electronic, using a mix of audio recording and digital/analog synthesis. I play piano and am slowly learning guitar.</p>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Undergraduate Researcher</h3>
+            <div class="subheading mb-3">Princeton Visual AI Lab</div>
+            <p>Conducting senior thesis research in vision + NLP, specifically methods for unsupervised learning of image captioning.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2018 - Present</span>
+          </div>
+        </div>
 
-    <h3><a href="resume.html" target="_blank">R&#233sum&#233</a></h3>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Software Engineer Intern</h3>
+            <div class="subheading mb-3">Google</div>
+            <p>Built back-end infrastructure and ML models on Machine Intelligence team of Google Photos.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Summer 2018</span>
+          </div>
+        </div>
 
-    <footer>
-      <a href="mailto:bfeng@princeton.edu"><i class="fa fa-envelope fa-3x" aria-hidden="true" class="social-icon"></i></a>
-      <a href="http://linkedin.com/in/berthy-feng-844956108/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true" class="social-icon"></i></a>
-      <a href="http://github.com/berthyf96" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true" class="social-icon" ></i></a>
-      <a href="https://soundcloud.com/berthy-feng-1" target="_blank"><i class="fa fa-soundcloud fa-3x" aria-hidden="true" class="social-icon"></i></a>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Research Assistant</h3>
+            <div class="subheading mb-3">Princeton Electrical Engineering</div>
+            <p>Created Pixplor, an "intelligent photo album" iPad app for nursing-home residents with dementia. Check out <a href="https://engineering.princeton.edu/news/2018/04/17/student-project-seeks-help-those-memory-loss" target=_"blank">this article</a> about the project.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Summer 2017</span>
+          </div>
+        </div>
 
-      <p>&copy; 2018 Berthy Feng</p>
-    </footer>
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="research">
+      <div class="w-100">
+        <h2 class="mb-5">Research</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0"><a href="https://pixl.cs.princeton.edu/pubs/Feng_2019_LBE/">Learning Bandwidth Expansion Using Perceptually-Motivated Loss</a></h3>
+            <div class="subheading mb-3">ICASSP 2019</div>
+            <img class="img-fluid img-profile 
+            mx-auto mb-2" 
+            style="width:30vw;height:auto;"
+            src="img/bwe.png" alt="Bandwidth Expansion">
+            <p>We introduce a perceptually motivated approach to bandwidth expansion for speech. Our method pairs a new 3-way split variant of the FFTNet neural vocoder structure with a perceptual loss function, combining objectives from both the time and frequency domains. Mean opinion score tests show that it outperforms baseline methods from both domains, even for extreme bandwidth expansion.</p>
+            <p>Collaborators: Zeyu Jin, Jiaqi Su, Prof. Adam Finkelstein
+            </p>
+            <p><i>This project began as an Independent Work project and won the Princeton CS Department's Best Poster Award. It developed into a full-fledged research project and publication.
+            </i></p>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0"><a href="https://www.cs.princeton.edu/courses/archive/spring18/cos598B/public/projects/System/COS598B_spr2018_TwoEncodings.pdf">A Tale of Two Encodings: Comparing Bag-of-Words and Word2vec for VQA</a></h3>
+            <div class="subheading mb-3">COS 598B Project</div>
+            <img class="img-fluid img-profile 
+            mx-auto mb-2" 
+            style="width:30vw;height:auto;"
+            src="img/vqa.png" alt="Bandwidth Expansion">
+            <p>Analyzing the effect of different text encodings on visual question answering (VQA) models.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Princeton University</h3>
+            <div class="subheading mb-3">Bachelor of Science in Engineering</div>
+            <div>Computer Science + Certificate in Satistics and Machine Learning</div>
+            <p><i>Tau Beta Pi</i></p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Class of 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Laurel School</h3>
+            <div class="subheading mb-3">High School</div>
+            <p><i>
+                Lyman Prize (Valedictorian)
+                <br>
+                State Champion and NSDA National Quarterfinalist in Extemporaneous Speaking
+            </i></p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Class of 2015</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-code text-primary"></i>
+            Python</li>
+          <li>
+            <i class="fa-li fa fa-code text-primary"></i>
+            Java</li>
+          <li>
+            <i class="fa-li fa fa-code text-primary"></i>
+            C++</li>
+          <li>
+            <i class="fa-li fa fa-code text-primary"></i>
+            Swift</li>
+          <li>
+            <i class="fa-li fa fa-code text-primary"></i>
+            JavaScript</li>
+          <li>
+            <i class="fa-li fa fa-code text-primary"></i>
+            React</li>
+        </ul>
+
+        <br>
+
+        <div class="subheading mb-3">Machine Learning Frameworks</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-code text-primary"></i>
+            TensorFlow</li>
+          <li>
+            <i class="fa-li fa fa-code text-primary"></i>
+            PyTorch</li>
+          <li>
+            <i class="fa-li fa fa-code text-primary"></i>
+            Caffe</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>I love music and believe good music comes from all genres, instruments, and people. I produce music using a mix of digital/analog synthesis (feel free to check out my <a href="https://soundcloud.com/berthy-feng-1">SoundCloud</a>). I play piano (my current goal is to master Chopin's Ballade No. 1 in g minor) and am teaching myself guitar.</p>
+        <p class="mb-0">When not geeking out over machine learning or music theory, I enjoy playing tennis and watching reruns of <i>Friends</i>.</p>
+      </div>
+    </section>
+
   </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
 </body>
+
 </html>
